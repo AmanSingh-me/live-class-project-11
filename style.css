@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+}
+h1 {
+  line-height: 1.3em;
+}
+p {
+  color: #798196;
+  font-size: small;
+  line-height: 1.8em;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navbar,
+.list,
+section > div,
+.hosting-plans,
+.customer-feedbacks,
+.user-details,
+.section-4,
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation */
+.navbar {
+  padding: 30px 5em;
+}
+.logo {
+  width: 70%;
+  vertical-align: middle;
+}
+.list {
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+.list-item {
+  margin: 0 1.5vw;
+}
+button {
+  border: 1px solid transparent;
+  border-image: linear-gradient(#08adf5, #0462ea);
+  border-image-slice: 1;
+  border-radius: 5px;
+  color: #ffffff;
+  background: linear-gradient(#068af0, #068af0);
+  font-weight: 600;
+  padding: 14px 26px;
+}
+.navbar button{
+  padding: 12px 24px;
+}
+.navbar button {
+  background: linear-gradient(to right, #08aff6, #0462ea);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+/* --------------- Section ----------------- */
+
+section {
+  margin: 1em 5em;
+}
+
+section > div {
+  padding: 40px 0;
+}
+
+.content h1 {
+  font-size: 2.8em;
+  color: #37455B;
+}
+
+.content button {
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+/* section-14 */
+
+.section-14 > h1 {
+  color: #1d2b4f;
+  font-size: 2.8em;
+}
+
+/* section-15 */
+
+.section-15 {
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+.card {
+  width: 32%;
+  margin: 10px 0;
+  padding: 1.5em;
+}
+.card > .icon img {
+  width: 16%;
+}
+.card h2 {
+  color: #1d2b4f;
+}
+
+/* section-2 */
+
+.section-2 {
+  background-image: linear-gradient(to bottom right, #09c4f9, #045de9);
+  display: block;
+  padding: 2.5em;
+}
+
+.section-2 > h1 {
+  font-size: 2.2em;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 0.8em;
+}
+.hosting-plans {
+  justify-content: space-evenly;
+}
+.hosting-plans .plans {
+  border-radius: 8px;
+  background-color: #ffffff;
+  width: 30%;
+  padding: 1em 1.5em;
+}
+.plans > h2 {
+  color: #1d2b4f;
+}
+
+.plan-include {
+  margin: 2.4em 0;
+}
+.plan-include > div::first-letter {
+  border: 2px solid #06d6a0;
+  border-radius: 50%;
+  color: #06d6a0;
+  font-weight: 600;
+  margin-right: 10px;
+  padding: 1px 4px;
+}
+.plan-include div {
+  line-height: 2.5em;
+  color: #1d2b4f;
+}
+.hosting-price {
+  text-align: center;
+}
+.hosting-price p,
+.hosting-price h2 {
+  margin: 0;
+  margin-top: 0.65em;
+}
+.hosting-price h2 {
+  color: #1d2b4f;
+}
+.hosting-price h2 span {
+  color: #798196;
+}
+.hosting-price p {
+  margin-bottom: 1.8em;
+}
+.plans button {
+  background: linear-gradient(to right bottom, #08aff6, #0462ea);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  padding-left: 3.2em;
+  padding-right: 3.2em;
+}
+.hosting-plans > div:first-child + .plans > button {
+  border: none;
+  -webkit-text-fill-color: #ffffff; 
+  background-clip:border-box;
+  border-radius: 6px;
+}
+
+/* section-3 */
+
+.section-3 {
+  margin: 3em 0;
+  padding: 0 5em;
+}
+.section-3 > h1,
+.section-3 > p {
+  text-align: center;
+  margin: 0;
+}
+.section-3 > h1 {
+  color: #1d2b4f;
+  font-size: 2.5em;
+  padding: 0.5em 0;
+}
+.customer-feedbacks {
+  flex-wrap: wrap;
+  margin: 2em 0;
+}
+.feedback-card {
+  width: 40%;
+  border-radius: 6px;
+  margin: 1em 0;
+  padding: 1em;
+  background-color: #c6c9d8;
+}
+
+.user-details {
+  justify-content: flex-start;
+}
+.user-details > span h4,
+.user-details > span p {
+  margin: 0;
+  margin-left: 1.2em;
+}
+.user-details > span h4 {
+  color: #1d2b4f;
+}
+
+/* Section-4 */
+
+.section-4 {
+  background-image: url(/images/footer-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3em 5em;
+}
+.left h1,
+.left p {
+  color: #ffffff;
+}
+.left h1 {
+  font-size: 2.8em;
+}
+
+.section-4 button {
+  border: none;
+  border: 1.8px solid #ffffff;
+  border-radius: 6px;
+  background: transparent;
+  margin-right: 7em;
+}
+
+/* footer */
+
+footer {
+  align-items: flex-start;
+  padding: 5em;
+}
+
+footer ul {
+  padding: 0;
+}
+footer .logo {
+  width: 45%;
+}
+footer > div > h3 {
+  color: #1d2b4f;
+}
+
+footer ul li {
+  color: #798196;
+  font-size: small;
+  margin: 1.4em 0;
+}
+
+.social-media-icon{
+  width: 22%;
+}
