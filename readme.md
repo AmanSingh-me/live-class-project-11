@@ -4,6 +4,6 @@
 - *Explored more about CSS Selectors*
 - *So..  many CSS Properties*
 
-### [Live Link](https://live-class-project-11.vercel.app/)
+### [Live Link](https://live-class-project-11-ten.vercel.app/)
 
 **Project is not responsive**
