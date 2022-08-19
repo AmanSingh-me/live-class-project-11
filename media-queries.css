@@ -1,0 +1,135 @@
+@media screen and (max-width:1152px) {
+    .list{
+        display: none;
+    }
+    section{
+        margin: 1em 2em;
+    }
+    .section-11,.section-13{
+        flex-direction: column-reverse;
+    }
+    .section-12,.section-14{
+        flex-direction: column;
+    }
+    .content,.text,.heading-text{
+        text-align: center;
+    }
+    .text{
+        width: 100%;
+    }
+    .section-2{
+        padding: 2em .8em;
+    }
+    .section-2 .plans{
+        width: 43%;
+        margin: 1em 0;
+    }
+    .section-3,.section-4{
+        padding: 0 2em;
+    }
+    .content{
+        margin-left: 0;
+    }
+    .feedback-card{
+        width: 46%;
+    }
+    footer{
+        padding: 3em;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navbar{
+        padding: 15px !important;
+    }
+    h1{
+        font-size: 2.5em !important;
+    }
+    .left h1{
+        font-size: 2em !important;
+    }
+    section{
+        margin: .5em;
+    }
+    .section-15 .card{
+        width: 48%;
+        padding: 1em;
+    }
+    .user-details img{
+    width: 20%;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5em;
+    }
+    .links,.menu{
+        margin-right: 1em;
+    }
+    img{
+        width: 100%;
+    }
+    footer .logo{
+        margin-left: 3em;
+    }
+    footer .logo + p{
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    h1{
+        font-size: 2em !important;
+    }
+    .section-15 .card{
+        width: 100%;
+        text-align: center;
+    }
+    .hosting-plans{
+        flex-direction: column;
+    }
+    .hosting-plans .plans{
+        width: 70%;
+    }
+    .customer-feedbacks{
+        text-align: center;
+    }
+    .feedback-card{
+       width: 80%;
+       margin: 1em auto;
+    }
+    .section-4{
+        flex-direction: column;
+        padding: 1em 0;
+    }
+    .section-4 .left{
+        text-align: center;
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .navbar{
+        padding: 10px !important;
+    }
+    .logo{
+        width: 50%;
+    }
+     button{
+       padding: 7px 14px !important;
+    }
+    .hosting-plans .plans{
+        width: 100%;
+    }
+    .left {
+        padding: 0 10px;
+    }
+    .feedback-card{
+       width: 100%;
+    }
+    h1,.left h1{
+        font-size: 1.8em !important;
+    }
+
+}

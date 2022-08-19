@@ -77,6 +77,9 @@ section {
 section > div {
   padding: 40px 0;
 }
+.content{
+  margin-left: 2em;
+}
 
 .content h1 {
   font-size: 2.8em;
@@ -94,7 +97,9 @@ section > div {
   color: #1d2b4f;
   font-size: 2.8em;
 }
-
+.text{
+ width: 50%;
+}
 /* section-15 */
 
 .section-15 {
@@ -129,6 +134,7 @@ section > div {
 }
 .hosting-plans {
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .hosting-plans .plans {
   border-radius: 8px;
@@ -252,6 +258,7 @@ section > div {
   border-radius: 6px;
   background: transparent;
   margin-right: 7em;
+  margin: 0 auto;
 }
 
 /* footer */
@@ -269,6 +276,12 @@ footer .logo {
 }
 footer > div > h3 {
   color: #1d2b4f;
+}
+
+.footer-menu{
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
 }
 
 footer ul li {
